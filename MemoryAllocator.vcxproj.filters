@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{92e3452e-b3c1-4a0d-a0bf-d074e41b5bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Allocator">
+      <UniqueIdentifier>{1d0bf951-5eda-4acc-aea5-ad42a3a5fd96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Allocator\MemoryAllocator.cpp">
+      <Filter>src\Allocator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Allocator\MemoryAllocator.h">
+      <Filter>src\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Allocator\MemoryPool.h">
+      <Filter>src\Allocator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
