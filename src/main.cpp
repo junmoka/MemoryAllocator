@@ -157,9 +157,9 @@ int main(){
 
 
 	std::cout << "CustomAllocatorRate" << std::endl;
-	std::cout << "newTimeRate:" << avgCustomNew / avgDefaultNew << "%" << std::endl;
-	std::cout << "deleteTimeRate:" << avgCustomDelete / avgDefaultDelete << "%" << std::endl;
-	std::cout << "new/deleteTimeRate:" << avgCustomNewDelete / avgDefaultNewDelete << "%" << std::endl << std::endl;
+	std::cout << "newTimeRate:" << avgCustomNew / avgDefaultNew * 100 << "%" << std::endl;
+	std::cout << "deleteTimeRate:" << avgCustomDelete / avgDefaultDelete * 100 << "%" << std::endl;
+	std::cout << "new/deleteTimeRate:" << avgCustomNewDelete / avgDefaultNewDelete * 100 << "%" << std::endl << std::endl;
 
 	getchar();
     return 0;
